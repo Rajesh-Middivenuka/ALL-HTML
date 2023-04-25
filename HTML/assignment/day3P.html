@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>  `
+     <h1>RAJESH MIDDIVENUKA</h1>
+     <p>My name is <strong>Rajesh</strong> i am chittoor district from andhrapradesh I had completed my <i>btech</i>
+      in the stream of <b>mechanical engineering</b> present i am working in + 
+    </p>
+    <form>
+        userName: <input id="email" type="text">
+        email: <input id="pwd" type="password">
+        <button>sumbit</button>
+    </form>
+      <script>
+           let email=document.getElementById("emial")
+           let password=document.getElementById("pwd")
+           console.log(password)
+           let form=document.querySelector("form");
+           form.addEventListener("submit",(e)=>{
+            console.log(e)
+               let fom=new FormData(form);
+               console.log(fom)
+              
+           })
+           console.log(form)
+      </script>
+</body>
+</html>
