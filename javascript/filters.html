@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <script>
+             let users = [
+    { name: 'John', age: 25, occupation: 'gardener' },
+    { name: 'Lenny', age: 51, occupation: 'programmer' },
+    { name: 'Andrew', age: 43, occupation: 'teacher' },
+    { name: 'Peter', age: 81, occupation: 'teacher' },
+    { name: 'Anna', age: 47, occupation: 'programmer' },
+    { name: 'Albert', age: 76, occupation: 'programmer' },
+]
+   let flterdata=users.filter((ele,ind,arr)=>{
+       //console.log(ele,ind)
+    return ele.age>50;
+   })
+  // console.log(flterdata)
+
+  
+    
+//    let da=arrs.filter((ele,ind,arr)=>{
+    
+//     //console.log(ind)
+//    // console.table(arr.indexOf(ele),ind)
+//     let dup=arr.indexOf(ele)===ind;
+//     return dup;
+    
+//    })
+   //console.log(da)
+   let arrs=[1,2,3,2,4,5,5,6,7,8,67]
+
+   let even=arrs.filter((val,ind)=>{
+    return val%2===0;
+   })
+   console.log(even)
+let large=arrs.reduce((acc,val)=>{
+    if(acc>val){
+        return acc;
+    }
+    else{
+       return val;
+    }
+   
+   
+})
+//console.log(large)
+
+let larges=arrs.reduce((acc,val)=>{
+    return acc>val ? acc:val
+})
+//console.log(larges)
+
+function pa(arrd){
+  let fistlarge=Math.max(...arrd);
+  console.log(fistlarge)
+  let indexF=arrd.indexOf(fistlarge)
+  console.log(indexF)
+  arrd.splice(indexF,1)
+  console.log(Math.max(...arrd));
+  
+}
+pa(arrs)
+       </script>
+</body>
+</html>
