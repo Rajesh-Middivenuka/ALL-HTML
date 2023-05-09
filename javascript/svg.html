@@ -11,5 +11,19 @@
         <path d="M150 0 L75 200 L225 200 Z" rajesh/>
         
       </svg>
+      <div id="one">one</div>
+      <div id="tow"><input type="text"></div>
+      <script>
+        let ele=document.getElementById("one");
+        ele.addEventListener("click",function(){
+            console.log(this)
+        })
+        let two=document.getElementById("tow");
+        two.onclick=deletes;
+        function deletes(){
+            console.log(this)
+            console.log(this.value);  
+        }
+      </script>
 </body>
 </html>

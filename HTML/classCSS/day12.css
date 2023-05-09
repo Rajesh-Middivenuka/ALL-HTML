@@ -1,0 +1,15 @@
+fieldset{
+    background-color: yellow;
+}
+div :nth-child(1){
+    background-color: aqua;
+}
+
+div>p{
+    color: red;
+}
+
+/* adjacent sibling selector + symbole only div and  p wiell select */
+div+h1{
+    background-color: gold;
+}

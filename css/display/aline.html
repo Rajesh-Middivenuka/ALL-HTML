@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       #container{
+        display: inline;
+       }
+   </style>
+</head>
+<body>
+    <div id="container">
+        <h1>rajesh</h1>
+        <h1>middivenuka</h1>
+    </div>
+
+    <script>
+        let arr=[2,3,4,5,6,7,8,45]
+         function largest(ar){
+            let ma=Math.max(...ar);
+            let index=ar.indexOf(ma);
+            
+            ar.splice(index,1)
+          
+            console.log(Math.max(...ar))
+         }
+         console.log(largest(arr))
+    </script>
+</body>
+</html>
