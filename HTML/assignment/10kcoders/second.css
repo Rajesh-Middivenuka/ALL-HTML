@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+
+}
+.acc{
+    margin-left: 100px;
+    display: flex;
+    position: absolute;
+    display: inline-block;
+    left: 80%;
+}
+
