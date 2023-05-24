@@ -1,0 +1,39 @@
+
+
+nav {
+    background-color: yellow;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+    gap: 5px;
+
+}
+nav div{
+    background-color: aqua;
+    display: flex;
+    
+}
+
+ ul{
+    background-color: rgb(230, 230, 240);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding-left: 150px;
+   
+}
+section{
+    margin-top: 50px;
+    display: grid;
+    gap: 1.5rem;
+    /* grid-template-columns: 100px 100px 100px; */
+    /* grid-template-columns: 50% 50%; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; each column has equal amount of width */
+     /* grid-template-columns: repeat(3,200px); */
+     grid-template-columns: repeat(3,1fr);
+}
+
+article{
+    border: 5px solid blue;
+    
+   
+}

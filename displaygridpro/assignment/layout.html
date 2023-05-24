@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     main{
+        display: grid;
+        grid-template-areas:" head head head "
+                             "side cont cont "
+                            " foot foot foot "
+        ;
+     }
+    header{
+        background-color: yellow;
+       grid-area: head;
+    }
+    aside{
+        background-color: blue;
+        grid-area: side;
+    }
+    section{
+        background-color: red;
+        grid-area: cont;
+    }
+
+</style>
+<body>
+       <main>
+           <header class="head">header</header>
+            <aside>left</aside>
+             <section>content</section>
+             <footer>footer</footer>
+       </main>
+</body>
+</html>

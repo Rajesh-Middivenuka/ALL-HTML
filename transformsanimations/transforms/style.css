@@ -1,0 +1,27 @@
+section{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(222, 182, 182);
+}
+p{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    transition: width 2s;
+   text-align: center;
+
+}
+p:hover{
+    width: 100%;
+    border-color: aqua;
+    color: white;
+    background: #000000;
+    /* transform: translate(50px,50px); */
+    /* transform: translateX(50%); */
+    /* transform: rotate(40deg); */
+    /* transform: scale(2,1); */
+    transform: rotate(360deg);
+    font-size: 60px;
+    border-radius: 50%;
+    
+}

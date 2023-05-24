@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .head {
+      background-color: yellow;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      text-align: center;
+    }
+    .aside {
+      background-color: aqua;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 1;
+    }
+    .section {
+      background-color: gold;
+    }
+    .footer {
+      background-color: black;
+    }
+  </style>
+
+  <body>
+    <main class="container">
+      <header class="head">haeder</header>
+      <aside class="aside">aside</aside>
+      <section class="section">sction</section>
+      <footer class="footer">footer</footer>
+    </main>
+    <main>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam
+        commodi tempore, nisi esse suscipit id? Obcaecati perspiciatis possimus
+        nesciunt!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+        necessitatibus ipsam cum quia accusantium sint ducimus minima porro
+        nihil, repudiandae totam repellat enim, dolor dolorem officiis! Enim
+        optio reprehenderit aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sint
+        doloribus illo provident ducimus quo. Asperiores ratione ab doloribus
+        sint, facilis hic, fugiat maiores, reprehenderit aliquid ullam corporis
+        provident voluptatem!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi atque
+        nemo iusto dolorem eaque facere assumenda ducimus hic dolores laudantium
+        quaerat autem nisi, nihil architecto et amet numquam molestiae similique
+        harum doloribus accusamus unde, veniam ab. Quaerat eligendi recusandae
+        eos.
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
+        soluta accusantium totam eius iusto perspiciatis aspernatur cupiditate,
+        ex harum. Nesciunt eaque dignissimos ullam minima quos impedit
+        distinctio illo, quae culpa.
+      </p>
+    </main>
+  </body>
+</html>

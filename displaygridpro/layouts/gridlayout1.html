@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+     .container{
+        display: grid;
+        grid-template-columns: 1fr 20% 15%;
+        grid-template-rows: 80px 1fr 70px;
+        gap: 7px;
+     }
+     .one{
+        background-color: blue;
+        height: auto;
+        grid-column: 1/4;
+     }
+     .two{
+        background-color: blue;
+        height: auto;
+        height: 300px;
+     }
+     .three{
+        background-color: blue;
+        height:auto;
+     }
+     .four{
+        background-color: blue;
+        height: auto;
+     }
+     .five{
+        background-color: blue;
+        height: auto;
+        grid-row: 3/4;
+        grid-column: 1/4;
+        
+     }
+     .contaiter2{
+       display: grid;
+       gap: 5px;
+       grid-template-columns: 1fr 20% 12%;
+       grid-template-rows: 1fr 20% 12%;
+       grid-template-areas: "one2 one2 one3"
+                            "two2 three2 four2"
+                             "five2 five2 five2";
+     }
+     .one2{
+        padding: 2px;
+        background-color: gold;
+        grid-area: one2;
+     }
+    .two2{
+        padding: 2px;
+        background-color: gold;
+        grid-area: two2;
+    }
+    .three2{
+        padding: 2px;
+        background-color: gold;
+        grid-area: three2;
+    }
+   </style>
+</head>
+<body>
+    <div class="contanier2">
+        <div class="one2">header</div>
+        <div class="two2">article</div>
+        <div class="three2">nav</div>
+        <div class="four2">ads</div>
+        <div class="five2">footer</div>
+    </div>
+        <div class="container">
+            <div class="one">header</div>
+            <div class="two">article</div>
+            <div class="three">nav</div>
+            <div class="four">ads</div>
+            <div class="five">footers</div>
+        </div>
+</body>
+</html>

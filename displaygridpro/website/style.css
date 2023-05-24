@@ -1,0 +1,88 @@
+.nav1 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+   
+   color: white;
+    
+}
+ .input{
+    padding-right: 100px;
+}
+.nav1{
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+    padding: 0.5px;
+    background-color: #0d2242;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+}
+.nav1 ul li{
+    border-left: 2px solid black;
+   
+}
+.nav2{
+   padding-top: 80px;
+   display: flex;
+}
+.nav2 div{
+    display: flex;
+    justify-content: end;
+    flex-grow: 1;
+    padding-right: 100px;
+    gap: 20px;
+    
+}
+.nav2 img{
+    padding-left: 30px;
+}
+.nav2 button{
+    width: 200px;
+    color: white;
+    background: blue;
+}
+.nav3 ul li{
+    color: white;
+}
+.nav3 ul{
+    list-style-type: none;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav3{
+    position: sticky;
+    top: 50px;
+    margin-top: 1.7px;
+    background-color:#0d2242 ;
+    padding: 2px;
+}
+.text{
+   
+   
+ background-image: url(./download.jpeg);
+ opacity: 0.5px;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+h2,h4{
+   position: relative;
+   left: 30%;
+    width: 500px;
+    color: white;
+}
+.asid{
+    border: 2px solid;
+    margin: 0px;
+   padding: 0px;
+}
+.asid ul{
+    list-style-type: none;
+   margin: 0px; 
+}
