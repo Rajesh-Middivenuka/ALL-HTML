@@ -1,0 +1,14 @@
+.container{
+    background-image: url(./images/background.jpg);
+    height: 150vh;
+    background-size: cover;
+    opacity: 0.9;
+}
+:root {
+    --textheader: #fafafa;
+    --white: #ffffff;
+  }
+*{
+  padding: 0px;
+  margin: 0px;
+}

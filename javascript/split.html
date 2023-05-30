@@ -8,8 +8,30 @@
 </head>
 <body>
        <script>
-        let a="rajesh middivnuka mouni"
-         console.log(a.split("a"))
+              // function make(num1){
+
+              //     return function add(num2){
+              //       return num1+num2
+              //     }
+              // }
+              // let fun=make(1)
+              // let fun2=make(10)
+              // console.log(fun)
+              // console.log(fun(2))
+              let num1=[1,2,3,5,6,9]
+              let num2=[3,4,5,7,9]
+              let arr=num1.filter((num1)=>{
+                return !num2.includes(num1) //1,2,6
+              }) 
+              let a=["a","b","c","rajesh"]
+                function finds(a){
+                   if(a.includes("rajesh")){
+                    console.log("rajesh is there in the class")
+                   }
+                   else console.log("rajesh is not there in the class")
+                }
+                finds(a)
+             console.log(arr)
        </script>
 </body>
 </html>

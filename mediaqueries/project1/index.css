@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+* body{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+:root{
+  --mobile: 576px; 
+  --tablet:768px;
+  --laptop:992px;
+  --desktop:1200px;
+  --color:#345;
+}
+.container{
+ border: 4px solid red;
+ height: 100vh;
+ /* display: flex;
+ justify-content: center;
+ align-items: center; */
+ display: grid;
+ place-content: center;
+ 
+}
+
+#size{
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translateX(-50%);
+   font-size: 35px;
+}
+@media screen and (max-width:992px){
+     
+   .container{
+    background-color:blue;
+   }
+}
+/* for max-width only inside 500px border our style will apply  */
+@media screen and (max-width: 576px){
+    .container{
+        background-color: red;
+    }
+}
+/* always follow desending order largest screen will be frist if you not follwo it does not work */
+/* min-width work outside border that means 300px outside border */
